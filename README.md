@@ -1,1 +1,1 @@
-This prject aims to replicate the google homepage
+This project aims to replicate the google homepage

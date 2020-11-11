@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(32, 33, 36);
+    font-size: 13px;
+}
+
+footer {
+    background-color: rgb(242, 242, 242);
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+
+header {
+    background-color: lightskyblue;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    color: #000;
+
+
+}
+
+main {
+    height: 351px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+        "other1 other1 other1"
+        "other2 top other3"
+        "bottom bottom bottom"
+    ;
+}
+
+.search-bar-top {
+
+    grid-area: top;
+    margin: auto;
+}
+
+.search-bar-bottom {
+    grid-area: bottom;
+    display: flex;
+    flex-direction: column;
+}
+
+.search-bar-form {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.search-bar-input {
+    height: 50%;
+    width: 500px;
+    margin: auto;
+}
+
+.search-bar-btns {
+    height: 50%;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+#search-bar {
+    position: relative;
+    top: 5px;
+    height: 35px;
+    width: 500px;
+    border-radius: 25px;
+    border-color: rgb(242, 242, 242);
+}
+
+.search-bar-btn {
+
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.search-bar-btn-input {
+    background-color: rgb(248, 249, 250);
+    border: 1px solid rgb(248, 249, 250);
+    height: 34px;
+
+    border-radius: 5px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+}
+
+
+
+
+.left-header {
+    position: fixed;
+    left: 0;
+
+}
+
+.right-header {
+    position: fixed;
+    right: 0;
+    display: flex;
+    min-width: 220px;
+}
+
+.header-links {
+    line-height: 25px;
+    margin-left: 15px;
+}
