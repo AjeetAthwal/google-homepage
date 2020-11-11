@@ -77,7 +77,11 @@ main {
     width: 500px;
     border-radius: 25px;
     border-color: rgb(242, 242, 242);
+    text-indent: 50px;
+    outline: none;
 }
+
+
 
 .search-bar-btn {
 
@@ -89,15 +93,31 @@ main {
     background-color: rgb(248, 249, 250);
     border: 1px solid rgb(248, 249, 250);
     height: 34px;
-
     border-radius: 5px;
     padding-left: 16px;
     padding-right: 16px;
 
 }
 
+.search-bar-img {
+    z-index: 1;
+}
 
+.search-bar-glass {
+    height: 13px;
+    margin-right: 100%;
+    position: relative;
+    top: 34px;
+    left: 18px;
+}
 
+.search-bar-mic {
+    margin-left: 100%;
+    height: 20px;
+    position: relative;
+    bottom: 24px;
+    right: 25px;
+}
 
 .left-header {
     position: fixed;
