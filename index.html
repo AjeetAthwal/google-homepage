@@ -10,26 +10,21 @@
 
 <body>
 
-    <header>
-        <div class="left-header">
-            <a href="#" class="header-links">About</a>
-            <a href="#" class="header-links">Store</a>
-        </div>
-        <div class="right-header">
-            <div>
-                <a href="#" class="header-links">Gmail</a>
-            </div>
-            <div>
-                <a href="#" class="header-links">Images</a>
-            </div>
-            <div>
-                <a href="#" class="header-links">pic</a>
-            </div>
-            <div>
-                <button class="header-links">Sign In</button>
-            </div>
-        </div>
-    </header>
+    <nav>
+        <ul class="navbar">
+            <li class="nav nav-left-top"><a href="#" class="header-links">About</a></li>
+            <li class="nav nav-left-top"><a href="#" class="header-links">Store</a></li>
+
+            <ul class="navbar-right">
+                <li class="nav nav-right"><a href="#" class="header-links">Gmail</a></li>
+                <li class="nav nav-right"><a href="#" class="header-links">Images</a></li>
+                <li class="nav nav-right"><a href="#" class="header-links"><img id="dots-icon"
+                            src="images/dots_icon.png" alt=""></a>
+                </li>
+                <li class="nav nav-right"><button id="sign-in-btn" class="header-links">Sign In</button></li>
+            </ul>
+        </ul>
+    </nav>
     <main>
         <div class="search-bar-top">
             <img class="search-bar-logo" src="images/google_logo.png" alt="google logo">
@@ -39,7 +34,7 @@
                 <div class="search-bar-input">
                     <img class="search-bar-img search-bar-glass" src="images/google_search_glass.png" alt="">
                     <input id="search-bar" type="text">
-                    <img class="search-bar-img search-bar-mic" src="images/googe_mic.png" alt="">
+                    <a href="#"><img class="search-bar-img search-bar-mic" src="images/googe_mic.png" alt=""></a>
                 </div>
                 <div class="search-bar-btns">
                     <div class="search-bar-btn left-btn">
@@ -54,8 +49,23 @@
     </main>
 
     <footer>
-        <div></div>
-        <div></div>
+        <div class="footer-flex">
+            <ul class="navbar">
+                <li class="nav nav-left"><a href="#" class="header-links">United Kingdom</a></li>
+            </ul>
+        </div>
+        <div class="footer-flex">
+            <ul class="navbar">
+                <li class="nav nav-left"><a href="#" class="header-links">Advertising</a></li>
+                <li class="nav nav-left"><a href="#" class="header-links">Business</a></li>
+                <li class="nav nav-left"><a href="#" class="header-links">How Search Works</a></li>
+                <ul class="navbar-right">
+                    <li class="nav nav-right"><a href="#" class="header-links">Privacy</a></li>
+                    <li class="nav nav-right"><a href="#" class="header-links">Terms</a></li>
+                    <li class="nav nav-right"><a href="#" class="header-links">Settings</a></li>
+                </ul>
+            </ul>
+        </div>
     </footer>
 
 </body>
