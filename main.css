@@ -121,7 +121,7 @@ a:hover {
     height: 35px;
     width: 500px;
     border-radius: 25px;
-    border-color: rgb(242, 242, 242);
+    border: rgb(242, 242, 242) 1px solid;
     text-indent: 50px;
     outline: none;
 
